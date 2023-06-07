@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Website Search</title>
+  <style>
+    /* CSS styles for the search banner */
+    .search-banner {
+      background-color: #f2f2f2;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .search-banner input[type="text"] {
+      width: 300px;
+      padding: 5px;
+      border: none;
+      font-size: 16px;
+    }
+    
+    .search-banner input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-left: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="search-banner">
+    <input type="text" placeholder="Search">
+    <input type="submit" value="Go">
+  </div>
+</body>
+</html>
